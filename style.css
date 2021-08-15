@@ -1,0 +1,76 @@
+body{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  color: #AE7C78;
+}
+h1{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+}
+h2{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px
+}
+li {
+  list-style-type: none;
+  display:inline-block;
+  margin-right: 20px;
+}
+.toa {
+  text-decoration: none;
+  color: #ae7c78;
+  }
+  .podtext{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+  }
+  .button {
+    padding:0px;
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #d89999;
+    color: #ffffff;
+    height: 80px;
+    width: 285px;
+  }
+  .catalogsection{
+    width: 387px;
+    height: 442px;
+    border-radius: 10px;
+    margin-right: 19px;
+    color:#ffffff;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: inset 0 0 0 200px rgba(174,124,120,0.6);
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .catalogsection:first-child{
+    background-image: url("img/BUKET4.jpg");
+  }
+  .catalogsection:nth-child(2){
+    background-image: url("img/buket5.jpg");
+  }
+  .catalogsection:last-child{
+    background-image: url("img/buket6.jpg");
+  }
